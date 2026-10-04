@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Query: answers from your spreadsheets, in your browser</title>
+  <meta name="description" content="Drop in CSV or Excel files, clean them up, and ask questions with or without SQL. Everything runs in your browser; nothing is uploaded.">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230a6b4d'/%3E%3Ccircle cx='15' cy='15' r='7' fill='none' stroke='%23fff' stroke-width='3'/%3E%3Cpath d='M19.5 19.5 25 25' stroke='%23fff' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+  <script>
+    // Set the theme before first paint to avoid a flash.
+    (function () {
+      var saved = null;
+      try { saved = localStorage.getItem('query.theme'); } catch (e) {}
+      var dark = saved ? saved === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+      document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+    })();
+  </script>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="src/ui/app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#answer">Skip to the answer</a>
+
+  <header class="site">
+    <div class="brand">
+      <h1 class="wordmark">Query</h1>
+      <p class="tagline">Drop in a spreadsheet, get answers. No SQL needed.</p>
+    </div>
+    <div class="site-right">
+      <p class="privacy" title="Files are read by this page on your device. There is no server and no tracking.">
+        <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path fill="currentColor" d="M8 1a3.5 3.5 0 0 0-3.5 3.5V6H4a1.5 1.5 0 0 0-1.5 1.5v5A1.5 1.5 0 0 0 4 14h8a1.5 1.5 0 0 0 1.5-1.5v-5A1.5 1.5 0 0 0 12 6h-.5V4.5A3.5 3.5 0 0 0 8 1Zm2 5H6V4.5a2 2 0 1 1 4 0V6Z"/></svg>
+        Your files stay in this browser. Nothing is uploaded.
+      </p>
+      <button id="theme" class="btn quiet" type="button" aria-label="Switch between light and dark mode">Dark mode</button>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section id="data" class="panel" aria-labelledby="data-title">
+      <div class="panel-head">
+        <h2 id="data-title"><span class="step">1</span> Your data</h2>
+        <div class="panel-actions">
+          <button id="pick" class="btn primary" type="button">Use my own files</button>
+          <button id="messy" class="btn" type="button">Try a messy file</button>
+          <button id="sample" class="btn" type="button" hidden>Back to sample data</button>
+        </div>
+      </div>
+      <p id="data-intro" class="intro"></p>
+      <div id="data-panel" aria-live="polite"><p class="empty">Loading sample data…</p></div>
+    </section>
+
+    <div class="work">
+      <section id="answer" class="panel" aria-labelledby="answer-title">
+        <div class="panel-head">
+          <h2 id="answer-title">Rows</h2>
+          <p id="result-meta" class="meta" role="status"></p>
+        </div>
+        <div id="grid" class="grid"></div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-foot">
+    <p>Runs entirely in your browser with DuckDB-WASM. No server, no tracking, no uploads.</p>
+    <p>
+      <a href="https://westons-hub.github.io/">← All projects</a>
+      <a href="https://github.com/westons-hub/query">Code</a>
+    </p>
+  </footer>
+
+  <div id="drop-overlay" hidden><p>Drop CSV or Excel files to load them</p></div>
+  <input id="file-input" type="file" multiple accept=".csv,.tsv,.txt,.xlsx,.xlsm,.xls,text/csv" hidden>
+  <div id="toast" role="status" hidden></div>
+</body>
+</html>

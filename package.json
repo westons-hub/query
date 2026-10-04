@@ -1,0 +1,11 @@
+{
+  "name": "query",
+  "private": true,
+  "type": "module",
+  "description": "Drop in CSV/Excel files and get answers, with or without SQL. Runs entirely in the browser.",
+  "scripts": {
+    "test": "node --test",
+    "sample": "node scripts/make-sample.mjs",
+    "start": "python3 -m http.server 8321"
+  }
+}

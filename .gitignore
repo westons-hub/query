@@ -1,0 +1,13 @@
+# Data files never go in the repo, except the fictional examples and test fixtures.
+*.csv
+*.tsv
+*.xlsx
+*.xls
+!examples/*.csv
+!examples/*.xlsx
+!tests/fixtures/*.csv
+!tests/fixtures/*.tsv
+
+.DS_Store
+node_modules/
+.claude/

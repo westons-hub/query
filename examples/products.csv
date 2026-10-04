@@ -1,0 +1,25 @@
+product_id,product,category,unit_price
+P001,Two-Person Tent,Camping,34.50
+P002,Sleeping Bag,Camping,184.99
+P003,Camp Stove,Camping,54.95
+P004,Folding Chair,Camping,143.00
+P005,Lantern,Camping,240.00
+P006,Cooler,Camping,50.99
+P007,Day Pack,Hiking,33.95
+P008,Trekking Poles,Hiking,12.95
+P009,Trail Boots,Hiking,208.95
+P010,Water Filter,Hiking,126.50
+P011,Headlamp,Hiking,44.50
+P012,Rain Shell,Hiking,50.50
+P013,Road Helmet,Cycling,201.50
+P014,Bike Lock,Cycling,222.95
+P015,Repair Kit,Cycling,14.99
+P016,Saddle Bag,Cycling,61.95
+P017,Floor Pump,Cycling,59.95
+P018,Cycling Gloves,Cycling,148.50
+P019,Dry Bag,Water,89.95
+P020,Paddle,Water,164.99
+P021,Life Vest,Water,123.00
+P022,Kayak Cart,Water,139.50
+P023,Deck Compass,Water,109.00
+P024,Throw Rope,Water,168.95

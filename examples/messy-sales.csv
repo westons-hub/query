@@ -1,0 +1,100 @@
+Larkspur Trading – regional sales export
+Generated 03.07.2025 from the finance system. Figures are provisional.
+
+Date;Region;Sales Rep;Category;Units;Revenue;Discount;Paid
+01.01.2025;North;Juno Whitlock;Cycling;18;441,00 €;0%;Yes
+01.01.2025;East;Avery Lindqvist;hiking;24;1.524,00 €;10%;Yes
+02.01.2025;North;Moss Okafor;Cycling;2;105,00 €;15%;Yes
+02.01.2025;South;Teodor Vance;Water;6;615,00 €;15%;Yes
+04.01.2025;north;Moss Okafor;Cycling;15;1.732,50 €;15%;No
+04.01.2025;east;Teodor Vance;Water;31;2.495,50 €;10%;No
+06.01.2025;West;Moss Okafor;Water;12;1.482,00 €;0%;Yes
+09.01.2025;East;Moss Okafor;Water;1;45,50 €;10%;Yes
+10.01.2025;North;Rhea Castellan;Camping;13;1.605,50 €;15%;Yes
+11.01.2025;South;Juno Whitlock;Camping;17;1.283,50 €;0%;Yes
+15.01.2025;EAST;Moss Okafor;Hiking;15;922,50 €;0%;Yes
+17.01.2025;South;Teodor Vance;hiking;27;1.498,50 €;0%;Yes
+18.01.2025;West;Moss Okafor;Cycling;twelve;6.900,00 €;10%;No
+22.01.2025;West;Moss Okafor;Hiking;9;1.012,50 €;0%;Yes
+23.01.2025;East;Moss Okafor;Camping;34;5.287,00 €;15%;No
+01.02.2025;West ;Avery Lindqvist;Water;15;2.257,50 €;5%;Yes
+03.02.2025;east;Moss Okafor;Camping;23;2.449,50 €;0%;Yes
+04.02.2025;North;Rhea Castellan;Cycling;36;6.102,00 €;5%;Yes
+04.02.2025;West;Rhea Castellan;Water;18;315,00 €;10%;Yes
+05.02.2025;North;Avery Lindqvist;Hiking;11;TBD;10%;Yes
+12.02.2025;NORTH;Moss Okafor;Camping;32;2.672,00 €;15%;Yes
+17.02.2025;South;Rhea Castellan;Cycling;37;1.313,50 €;15%;Yes
+19.02.2025;North;Rhea Castellan;Camping;5;377,50 €;0%;No
+24.02.2025;West;Teodor Vance;Hiking;29;3.639,50 €;0%;Yes
+01.03.2025;South;Moss Okafor;Cycling;30;2.655,00 €;5%;No
+02.03.2025;West;Teodor Vance;Camping;3;190,50 €;5%;No
+03.03.2025;East;Rhea Castellan;Camping;3;247,50 €;5%;No
+05.03.2025;SOUTH;Rhea Castellan;Water;38;1.159,00 €;10%;Yes
+05.03.2025;West ;Teodor Vance;Hiking;21;1.228,50 €;10%;Yes
+06.03.2025;West;Rhea Castellan;Hiking;39;3.334,50 €;15%;Yes
+06.03.2025;West;Rhea Castellan;Hiking;39;3.334,50 €;15%;Yes
+07.03.2025;south;Juno Whitlock;Camping;11;1.886,50 €;15%;Yes
+07.03.2025;West;Moss Okafor;Hiking;26;2.977,00 €;5%;Yes
+08.03.2025;South;Avery Lindqvist;Water;32;688,00 €;10%;Yes
+10.03.2025;West;Juno Whitlock;Water;13;708,50 €;5%;No
+12.03.2025;West;Avery Lindqvist;Camping;15;382,50 €;10%;No
+13.03.2025;North;Moss Okafor;Camping;18;1.629,00 €;15%;Yes
+21.03.2025;West;Teodor Vance;Hiking;1;48,50 €;15%;Yes
+22.03.2025;East;Juno Whitlock;Camping;37;1.276,50 €;5%;Yes
+22.03.2025;North;Juno Whitlock;Cycling;25;4.112,50 €;0%;No
+22.03.2025;East;Rhea Castellan;Cycling;33;907,50 €;0%;No
+23.03.2025;East;Avery Lindqvist;Cycling;22;1.463,00 €;10%;Yes
+24.03.2025;East;Rhea Castellan;Cycling;38;3.857,00 €;15%;Yes
+24.03.2025;North ;Juno Whitlock;Cycling;20;3.330,00 €;5%;Yes
+25.03.2025;North;Juno Whitlock;Water;40;5.340,00 €;5%;Yes
+;;;;;;;
+26.03.2025;South;Teodor Vance;Hiking;28;854,00 €;15%;Yes
+01.04.2025;East;Rhea Castellan;water;39;2.359,50 €;0%;Yes
+08.04.2025;North;Moss Okafor;Hiking;23;1.989,50 €;10%;No
+11.04.2025;South;Juno Whitlock;Cycling;32;976,00 €;0%;No
+14.04.2025;South;Rhea Castellan;Camping;25;2.487,50 €;5%;Yes
+16.04.2025;South;Avery Lindqvist;Cycling;6;627,00 €;5%;Yes
+17.04.2025;East;Teodor Vance;Hiking;11;1.479,50 €;10%;Yes
+18.04.2025;North;Juno Whitlock;Hiking;7;1.165,50 €;15%;Yes
+18.04.2025;West;Moss Okafor;Hiking;30;2.025,00 €;0%;No
+22.04.2025;South;Rhea Castellan;Hiking;21;2.341,50 €;10%;No
+24.04.2025;East;Juno Whitlock;Hiking;32;3.568,00 €;15%;No
+24.04.2025;East;Moss Okafor;Cycling;38;1.691,00 €;10%;Yes
+27.04.2025;WEST;Teodor Vance;Cycling;33;1.765,50 €;0%;Yes
+27.04.2025;WEST;Teodor Vance;Cycling;33;1.765,50 €;0%;Yes
+27.04.2025;WEST;Teodor Vance;Cycling;33;1.765,50 €;0%;Yes
+27.04.2025;East;Juno Whitlock;Water;21;1.900,50 €;10%;No
+27.04.2025;EAST;Juno Whitlock;Camping;28;4.858,00 €;5%;No
+28.04.2025;West;Teodor Vance;Water;38;5.377,00 €;15%;Yes
+05.05.2025;south;Moss Okafor;Camping;35;1.242,50 €;10%;Yes
+05.05.2025;north;Avery Lindqvist;camping;27;1.849,50 €;10%;Yes
+07.05.2025;South;Rhea Castellan;Cycling;21;2.320,50 €;10%;Yes
+08.05.2025;West;Teodor Vance;Camping;20;3.570,00 €;10%;No
+14.05.2025;North;Moss Okafor;Cycling;25;2.887,50 €;0%;Yes
+16.05.2025;North;Moss Okafor;Cycling;23;2.817,50 €;15%;Yes
+17.05.2025;North;Avery Lindqvist;Cycling;28;4.914,00 €;10%;Yes
+20.05.2025;South;Juno Whitlock;Cycling;26;2.379,00 €;10%;No
+21.05.2025;South;Teodor Vance;Camping;1;60,50 €;5%;Yes
+22.05.2025;West;Moss Okafor;camping;33;3.910,50 €;0%;Yes
+22.05.2025;West;Avery Lindqvist;Hiking;23;2.679,50 €;10%;Yes
+24.05.2025;East;Teodor Vance;Hiking;8;1.276,00 €;15%;Yes
+26.05.2025;North;Juno Whitlock;Camping;37;4.643,50 €;10%;Yes
+;;;;;;;
+28.05.2025;North;Rhea Castellan;Camping;33;4.372,50 €;5%;Yes
+28.05.2025;East;Rhea Castellan;Hiking;n/a;1.002,00 €;0%;Yes
+01.06.2025;EAST;Juno Whitlock;Hiking;2;151,00 €;5%;Yes
+01.06.2025;South;Moss Okafor;Cycling;14;2.149,00 €;0%;No
+03.06.2025;West;Moss Okafor;Cycling;15;1.207,50 €;10%;No
+04.06.2025;East;Avery Lindqvist;Hiking;38;2.793,00 €;5%;No
+06.06.2025;North;Teodor Vance;Water;38;931,00 €;10%;Yes
+08.06.2025;East;Juno Whitlock;Water;28;2.534,00 €;5%;Yes
+10.06.2025;North;Moss Okafor;Camping;8;356,00 €;10%;No
+11.06.2025;East ;Juno Whitlock;Cycling;23;2.518,50 €;10%;No
+13.06.2025;WEST;Juno Whitlock;Hiking;36;3.726,00 €;0%;Yes
+15.06.2025;South;Rhea Castellan;Cycling;1;107,50 €;0%;Yes
+16.06.2025;north;Juno Whitlock;Camping;27;3.793,50 €;15%;Yes
+16.06.2025;West;Rhea Castellan;Cycling;1;67,50 €;5%;Yes
+20.06.2025;East;Rhea Castellan;Camping;23;2.288,50 €;5%;Yes
+26.06.2025;South;Avery Lindqvist;Cycling;2;265,00 €;10%;Yes
+27.06.2025;SOUTH;Moss Okafor;Hiking;36;4.050,00 €;5%;Yes
+Total;;;;1991;186.139,50 €;;
