@@ -35,7 +35,8 @@ export function sortOrder(values, type, dir) {
 export function createGrid(container) {
   const head = h('div', { class: 'grid-head', role: 'row' });
   const body = h('div', { class: 'grid-body' });
-  const spacer = h('div', { class: 'grid-spacer' }, body);
+  const empty = h('p', { class: 'grid-empty', hidden: true, text: 'No rows. Nothing in the data matches this question.' });
+  const spacer = h('div', { class: 'grid-spacer' }, body, empty);
   const scroller = h('div', { class: 'grid-scroll', tabindex: '0', role: 'table', 'aria-label': 'Result rows' }, head, spacer);
   container.replaceChildren(scroller);
 
@@ -61,6 +62,7 @@ export function createGrid(container) {
     }
     body.style.transform = `translateY(${first * ROW / scale}px)`;
     body.replaceChildren(...rows);
+    empty.hidden = data.rowCount > 0;
   }
 
   function drawHead() {
@@ -83,11 +85,7 @@ export function createGrid(container) {
     }));
   }
 
-  let frame = 0;
-  scroller.addEventListener('scroll', () => {
-    cancelAnimationFrame(frame);
-    frame = requestAnimationFrame(draw);
-  });
+  scroller.addEventListener('scroll', draw, { passive: true });
   new ResizeObserver(() => draw()).observe(scroller);
 
   return {

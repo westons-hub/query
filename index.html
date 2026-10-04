@@ -51,11 +51,35 @@
     </section>
 
     <div class="work">
+      <section id="ask" class="panel" aria-labelledby="ask-title">
+        <div class="panel-head">
+          <h2 id="ask-title"><span class="step">2</span> Ask a question</h2>
+          <div class="seg" role="group" aria-label="How to ask">
+            <button id="mode-build" class="seg-btn" type="button" aria-pressed="true">Build it</button>
+            <button id="mode-sql" class="seg-btn" type="button" aria-pressed="false">Write SQL</button>
+          </div>
+        </div>
+        <div id="starters" class="starters"></div>
+        <div id="build-pane">
+          <div id="builder" class="builder"></div>
+          <div class="generated">
+            <p id="sentence" class="sentence"></p>
+            <div class="generated-sql">
+              <pre id="generated-sql" aria-label="The SQL for this question"><code></code></pre>
+              <button id="edit-sql" class="btn quiet" type="button">Edit as SQL</button>
+            </div>
+          </div>
+        </div>
+        <div id="sql-pane" hidden></div>
+      </section>
+
       <section id="answer" class="panel" aria-labelledby="answer-title">
         <div class="panel-head">
-          <h2 id="answer-title">Rows</h2>
+          <h2 id="answer-title"><span class="step">3</span> Answer</h2>
           <p id="result-meta" class="meta" role="status"></p>
         </div>
+        <p id="result-title" class="result-title"></p>
+        <div id="result-error" class="sql-error" role="alert" hidden></div>
         <div id="grid" class="grid"></div>
       </section>
     </div>
